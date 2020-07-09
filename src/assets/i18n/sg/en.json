@@ -1,0 +1,837 @@
+{
+  "hello": "Hi Bizgo!",
+  "translation": "Translation Text",
+  "date_text": "Date",
+  "currency_text": "Currency",
+  "countryCode": "65",
+  "countryNumberDigitLimit": "8",
+  "number_text": "Number",
+  "english": "English",
+  "currencySymbol": "$",
+  "hindi": "हिंदी",
+  "navigation": {
+    "home": "Home",
+    "search": "Search",
+    "landing": "Landing",
+    "gotoTab": "Go to Tab",
+    "entries": "Entries",
+    "parties": "Parties",
+    "items": "Items",
+    "accounts": "Accounts",
+    "account": "Account",
+    "toCollect": "To Collect",
+    "toPay": "To Pay",
+    "selectCustomer": "Select a Customer",
+    "selectItem": "Select an Item",
+    "createInvoice": "Create Sales / Invoice",
+    "searchEntries": "Search Entries",
+    "paymentIn": "Payment In",
+    "paymentOut": "Payment Out",
+    "linkedInvoice": "Linked Invoice",
+    "searchItems": "Search Items",
+    "createItem": "Create New Item",
+    "updateItem": "Update item",
+    "selectGst": "GST Rate",
+    "createParty": "Create New Party",
+    "selectEntryForReturn": "Select Entry for Return",
+    "selectItemForReturn": "Select Items for Return",
+    "createReturn": "Create Return",
+    "returnPreview": "Return Created",
+    "updateReturn": "Update Return",
+    "selectSupplier": "Select Supplier",
+    "editInvoice": "Edit Invoice"
+  },
+  "icon": {
+    "account": "BizgoIcon_Account1",
+    "add": "BizgoIcon_Add1",
+    "bill": "BizgoIcon_z12-Bill-dollar",
+    "camera": "BizgoIcon_Camera1",
+    "clear_text": "BizgoIcon_Clear-Text1",
+    "companyDetails": "BizgoIcon_z5-company-details",
+    "convertToInvoice": "BizgoIcon_Convert-to-Invoice1",
+    "copy": "BizgoIcon_Copy1",
+    "createEntry": "BizgoIcon_Add1",
+    "credit": "BizgoIcon_Credit1",
+    "de-activate": "BizgoIcon_z9-disable",
+    "delete": "BizgoIcon_Delete1",
+    "download": "BizgoIcon_Download1",
+    "edit": "BizgoIcon_Edit1",
+    "entries": "BizgoIcon_Entries1",
+    "file": "BizgoIcon_File1",
+    "filter": "BizgoIcon_Filter1",
+    "filterActive": "BizgoIcon_z09-Filter-active",
+    "folder": "BizgoIcon_Folder1",
+    "image": "BizgoIcon_Image1",
+    "invoice": "BizgoIcon_z11-Invoice-dollar",
+    "items": "BizgoIcon_Items1",
+    "listview": "BizgoIcon_z6-List-view",
+    "ledgerview": "BizgoIcon_z8-ledger-view",
+    "logo": "Bizgo Logo Full Mark",
+    "money_in": "BizgoIcon_z15-moneyIn-dollar",
+    "money_out": "BizgoIcon_z16-moneyOut-dollar",
+    "parties": "BizgoIcon_Parties1",
+    "payment_in": "BizgoIcon_z15-moneyIn-dollar",
+    "payment_out": "BizgoIcon_z16-moneyOut-dollar",
+    "percentage": "BizgoIcon_Percentage1",
+    "phone": "BizgoIcon_Phone1",
+    "play": "BizgoIcon_Play1",
+    "print": "BizgoIcon_Print1",
+    "profileDetails": "BizgoIcon_z3-Profile-Details",
+    "quotation": "BizgoIcon_Quotation1",
+    "record_payment_in": "BizgoIcon_Record-PaymentIn1",
+    "record_payment_out": "BizgoIcon_Record-PaymentOut1",
+    "resendOtp": "BizgoIcon_Resend-OTP1",
+    "return": "BizgoIcon_Return1",
+    "rupee": "icon-BizgoIcon_z19-dollar-sign",
+    "search": "BizgoIcon_Search1",
+    "securityLegal": "BizgoIcon_z7-security",
+    "sendReminder": "BizgoIcon_Send-reminder1",
+    "share": "BizgoIcon_Share1",
+    "signature": "BizgoIcon_z1-signature",
+    "signature_z2": "BizgoIcon_z2-signature",
+    "whatsApp": "BizgoIcon_Whats-app1",
+    "chat": "BizgoIcon_Whats-app1",
+    "yourTeam": "BizgoIcon_z4-your-team"
+  },
+  "scenes": {
+    "entries": {
+      "header": "Entries",	
+      "sortnfilter": "Sort & Filter",
+      "modal": {
+        "modalHeading": "Sort & Filter",
+        "sortHeading": "Sort by",
+        "filterHeading": "Filter by",
+        "sortBy": {
+          "amount": {
+            "highToLow": "Amount : High to Low ",
+            "lowToHigh": "Amount : Low to High "
+          },
+          "date": {
+            "latestToOldest": "Entry Date : Newest first ",
+            "oldestToLatest": "Entry Date : Oldest first "
+          }
+        },
+        "filterBy": {
+          "salesInvoice": "Sales /Invoice",
+          "purchase": "Purchase",
+          "paymentIn": "Payment In",
+          "paymentOut": "Payment Out",
+          "udhaar": "Credit Given",	
+          "returns": "Returns"
+        },
+        "modalButton": "Apply"
+      },
+      "buttons": {
+        "done": "done"
+      },
+      "selectCustomer": {
+        "input": {
+          "placeHolder": "Search existing Customer"
+        },
+        "noCustomerMsg" : "You haven't created a customer yet",	
+        "noCustomerFound": "No customer found."
+      },
+      "searchEntries": {
+        "input": {
+          "placeHolder": "Search by party name / entry no."
+        }
+      },
+      "selectItem": {
+        "input": {
+          "placeHolder": "Search existing Item"
+        }
+      },
+      "createInvoice": {
+        "edit": "Edit",
+        "billTo": "Bill to",
+        "invoice": "Invoice",
+        "invoiceTo": "Invoice To",
+        "items": "Items",
+        "options": "( Options )",
+        "optional": "(Optional)",
+        "notes": "Notes",
+        "addNotes": "Add Notes",
+        "addItems": "Add Items",
+        "addMoreItems": "Add more Items",
+        "additionalCharges": "Additional Charges",
+        "addShippingAddress": "Add Shipping Address",
+        "addBillingAddress": "Add Billing Address",
+        "invoiceDetails": "Invoice Details",
+        "billing": "Billing",
+        "shipping": "Shipping",
+        "address": "Address",	
+        "fullAddress": "Full Address",	
+        "billingPincode": "Billing Postal Code",	
+        "useSameAddressBilling": "Use same address for Billing",	
+        "addAdditionalCharges": "Add Additional Charges",	
+        "addMoreCharges": "Add more Charges",	
+        "amountErrorMsg": "Please enter a valid invoice amount",	
+        "itemErrorMsg": "Invalid item selected",	
+        "salesTypeErrorMsg": "Please select a valid sale type , eg : Cash or Credit",	
+        "pdfAlert": "PDF Not generated yet, please try again later",	
+        "pdfErrorMsg": "Unable to open PDF , Please try again",	
+        "saveErrorMsg": "Failed to save the invoice , Please try again",	
+        "saveConfirmationMsg": "Would you like to Delete this Invoice?",	
+        "saveAsDraft": "Save as draft",	
+        "remove": "Remove",	
+        "quantity": "Quantity",	
+        "sellingprice": "Selling Price",	
+        "withTax": "With Tax",	
+        "withoutTax": "Without Tax",	
+        "discount": "Discount",	
+        "saveNcreateNew": "Save and Create new"
+      },
+      "paymentIn": {
+        "from": "Payment From",
+        "method": "Payment Method",
+        "notes": "Notes",
+        "totalAmount": "Total Amount"
+      },
+      "paymentOut": {
+        "to": "Payment To",
+        "method": "Payment Method",
+        "notes": "Notes",
+        "totalAmount": "Total Amount"
+      },
+      "linkedInvoice": {
+        "partyName": "Party Name",
+        "totalReceived": "Total Received",
+        "unlinkedAmount": "Unlinked Amount",
+        "invoiceAmount": "Invoice Amount",
+        "balance": "Balance",
+        "receivedAmount": "Received Amount"
+      },
+      "actionSheet": {
+        "options": {
+          "paymentOut": "Payment Out",
+          "paymentIn": "Payment In",
+          "udhaarOrCredit": "Give Credit",
+          "purchaseOrBill": "Purchase",
+          "salesOrInvoice": "Sales / Invoice",
+          "cancel": "Cancel",
+          "quotation": "Quotation",
+          "return": "Return"
+        },
+        "buttons": {
+          "actionSheetButton": "Create Entry",
+          "createUomButtom": "Create New Unit"
+        }
+      },
+      "labels": {
+        "toCollect": "To Collect",
+        "toPay": "To Pay"
+      }
+    },
+    "udhaar": {
+      "giveCredit": "Give Credit",
+      "edit": "Edit",
+      "credit": "Credit",
+      "giveCreditTo": "Give Credit To",
+      "imagesAndDocuments": "Images & Documents",
+      "totalAmount": "Total Amount",
+      "sendSMS": "Send Credit SMS to customer",
+      "sendSMSOn": "On",	
+      "sendSMSOff": "Off",
+      "saveButton": "Save",
+      "creditDetails": "Credit Details",
+      "toggleOff": "Off",	
+      "toggleOn": "On",
+      "creditNumber": "Credit Number",
+      "confirmation": "Confirmation",	
+      "discard": "Discard",	
+      "continueEditing": "Continue Editing",	
+      "confirmationMsg": "Your changes are not saved yet. would you like to continue or discard it ?",
+      "creditDate": "Credit Date",
+      "done": "Done",	
+      "errorMessage": "Something went wrong , please try again later",	
+      "details": {	
+        "delete": "Delete",	
+        "notes": "Notes",	
+        "addNotes": "Add Notes",	
+        "dueDateMessage": "Customer will receive SMS on due date",	
+        "confirm": "Confirm",	
+        "discard": "Discard",	
+        "deleteConfirmMsg": "Would you like to Delete this Credit?"	
+      }
+    },
+    "paymentIn": {
+      "createPayment": "Create Payment In",
+      "updatePayment": "Update Payment In",
+      "edit": "Edit",
+      "receipt": {
+        "receipt": "Payment In No.",
+        "receiptDetails": "Receipt Details",
+        "receiptNumber": "Receipt Number",
+        "receiptDate": "Receipt Date"
+      },
+      "paymentFrom": "Payment From",
+      "paymentMethod": "Payment Method",
+      "notes": "Notes",
+      "addNotes": "Add Notes",
+      "imagesAndDocuments": "Images & Documents",
+      "totalAmount": "Total Amount",
+      "linkedInvoices": "Linked Invoices",
+      "linkInvoices": "Link Invoices",
+      "sendSMS": "Send payment received SMS to customer",	
+      "sentSMSMsg": "SMS is sent to the customer",
+      "saveButton": "Save",
+      "linkInvoice": {
+        "linkInvoice": "Link Invoice",
+        "partyName": "Party Name",
+        "totalReceived": "Total Received",
+        "unlinkedAmount": "Unlinked Amount",
+        "doneButton": "Done",
+        "receivedAmount": "Received Amount",
+        "invoiceAmount": "Invoice Amount",
+        "balance": "Balance"
+      },
+      "details": {
+        "paymentIn": "Payment In",
+        "paymentInFrom": "Payment From"
+      },	
+      "date": {	
+        "dueDateMessage": "Due date should be on or after the",	
+        "date": "date"
+      }
+    },
+    "paymentOut": {
+      "createPayment": "Create Payment Out",
+      "updatePayment": "Update Payment Out",
+      "edit": "Edit",
+      "payment": {
+        "payment": "Payment Out No.",
+        "paymentDetails": "Payment Details",
+        "paymentNumber": "Payment Number",
+        "paymentDate": "Payment Date"
+      },
+      "paymentFrom": "Payment To",
+      "paymentMethod": "Payment Method",
+      "notes": "Notes",
+      "addNotes": "Add Notes",
+      "imagesAndDocuments": "Images & Documents",
+      "totalAmount": "Total Amount",
+      "linkedBills": "Linked Bills",
+      "linkBills": "Link Bills",
+      "sendSMS": "Send payment received SMS to customer",	
+      "sentSMSMsg": "SMS is sent to the supplier",
+      "saveButton": "Save",
+      "linkBill": {
+        "linkBill": "Link Bill",
+        "partyName": "Party Name",
+        "totalReceived": "Total Received",
+        "unlinkedAmount": "Unlinked Amount",
+        "doneButton": "Done",
+        "receivedAmount": "Received Amount",
+        "purchaseAmount": "Purchase Amount",
+        "balance": "Balance"
+      },
+      "details": {
+        "paymentOut": "Payment Out",
+        "paymentOutFrom": "Payment To"
+      }
+    },
+    "authentication": {
+      "authHeader": "Your Mobile Number",	
+      "authSubHeader": "We will send an OTP to verify your mobile number",	
+      "authModalHeader": "Use Phone Number",	
+      "authModalButton": "None of the above",	
+      "authOTPConfirmText": "Confirm OTP",	
+      "authOTPHelpText": "Help",	
+      "authOTPHeader": "Check your SMS and enter the given OTP.",	
+      "resendOTP": "Resend OTP",	
+      "seconds": "seconds",	
+      "header": "Your Mobile Number",	
+      "subHeader": "We will send an OTP to verify your mobile number",
+      "buttons": {
+        "continue": "Continue"
+      },
+      "numberdigitValidation": "Please enter 8 digit phone number",	
+      "valuesValidation": "Please enter values to continue",
+      "dropdownPickerTitle": "Country Code",
+      "textInputMobileTitle": "Enter Mobile Number",
+      "textInputOtpTitle": "Enter OTP",	
+      "OTPHeading": "Confirm OTP",	
+      "OTPheader": "Check your SMS and enter the given OTP.",	
+      "OTPValidation": "Please enter 4 digit otp to proceed"
+    },
+    "quotation": {
+      "createQuotation": "Create Quotation",
+      "quotation": "Quotation",
+      "quoteTo": "Quote To",
+      "addItems": "Add Items",
+      "addMoreItems": "Add more Items",
+      "notes": "Notes",
+      "notesWithOptional": "Notes (Optional)",
+      "addNotes": "Add Notes",
+      "quotationDetails": "Quotation Details",
+      "sendSMS": "Send Quote SMS to customer",
+      "alert": {
+        "title": "Confirm",
+        "message": "Would you like to save this Quotation?",
+        "save": "Save",
+        "discard": "Discard"
+      },
+      "newlyCreatedQuotation": "The Newly Created Quotation",	
+      "quotationPreview": "Quotation Preview",
+      "editQuotation": "Edit Quotation",
+      "discountAndRoundOff": "Discount & Round Off",
+      "discountPrice": "Discount Price",
+      "roundOff": "Round Off",
+      "buttons": {
+        "save": "Save"
+      }
+    },
+    "purchase": {
+      "createPurchase": "Create Purchase / Bill",
+      "editPurchase": "Edit Purchase",
+      "purchasePreview": "Purchase Preview",
+      "purchase": "Purchase",
+      "newlyCreatedPurchase": "The Newly Created Purchase",
+      "bill": "Bill",
+      "purchaseFrom": "Purchase From",
+      "totalAmount": "Total Amount",	
+      "sendSMS": "Send Bill SMS to Supplier",	
+      "purchaseDetails": "Purchase Details",
+      "alert": {
+        "title": "Confirm",
+        "message": "Would you like to save this Purchase?",
+        "save": "Save",
+        "discard": "Discard",	
+        "OpenURLButtonMessage": "Don't know how to open this URL:"	
+      },	
+      "dueIn": "Due in",	
+      "days": "days",	
+      "dueDateMsg": "Customer will receive SMS on due date",	
+      "dueDateMsgNot": "Customer will not receive SMS on due date",	
+      "buttons": {	
+        "add": "Add",	
+        "less": "Less",	
+        "cash": "Cash",	
+        "credit": "Credit",	
+        "on": "On",	
+        "off": "Off",	
+        "print": "Print",	
+        "download": "Download",	
+        "share": "Share",	
+        "chat": "Chat",	
+        "edit": "Edit",	
+        "done": "Done",	
+        "doneNcreateAnother": "Done &\n Create another Quote"	
+      },	
+      "details": {	
+        "billTo": "Bill to",	
+        "items": "Items",	
+        "item": "Item",	
+        "address": "Address",	
+        "shipping": "Shipping",	
+        "billing": "Billing",	
+        "discount": "Discount",	
+        "absolute": "Absolute",	
+        "tax": "Tax",	
+        "roundOff": "Round Off"
+      }
+    },
+    "item": {
+      "sortFilter": {
+        "sort": {
+          "itemNameAtoZ": "Item Name: A to Z",
+          "itemNameZtoA": "Item Name: Z to A",
+          "quantityLowtoHigh": "Quantity: Low to High",
+          "quantityHightoLow": "Quantity: High to Low",
+          "priceLowtoHigh": "Price: Low to High",
+          "priceHightoLow": "Price: High to Low"
+        },
+        "filter": {
+          "inStock": "In Stock",
+          "notInStock": "Not In Stock"
+        }
+      },
+      "search": {
+        "input": {
+          "placeHolder": "Search by item name / code"
+        }
+      },
+      "create": {
+        "button": "Create Item"
+      },
+      "uom": {
+        "selectUom": "Select Unit of Measure",
+        "searchUom": "Search Measuring Unit",
+        "recentlyUsed": "Recently Used Units",
+        "allUnits": "All Units",
+        "createSelect": "Create & Select New Unit",
+        "unitName": "Unit Name",
+        "shortCode": "Short Code",
+        "validationMessage": "Please provide the unit name and code",
+        "done": "Done"
+      },
+      "tax": "GST"
+    },
+    "createItem": {
+      "form": {
+        "itemNamePlaceHolder": "Item Name",
+        "descriptionHeading": "Description (Optional)",
+        "description": "Description",
+        "addDescription": "Add Description",
+        "addADescription": "Add a Description",
+        "pricingPlaceHolder": "Pricing (Optional)",
+        "pricing": {
+          "salesPrice": "Sales Price",
+          "withTax": "With Tax",
+          "withoutTax": "Without Tax",
+          "purchasePrice": "Purchase Price"
+        },
+        "off": "Off",	
+        "on": "On",
+        "taxDetailsHeading": "Tax Details (Optional)",
+        "addTaxDetails": "Add Tax Details",
+        "GSTRate": "GST Rate",
+        "HSNCode": "HS Code",
+        "stockDetailsHeading": "Stock Details (Optional)",
+        "addStockDetails": "Add Stock Details",
+        "itemCode": "Item Code",
+        "currentStockQuantity": "Current Stock",
+        "measuringUnit": "Measuring Unit",
+        "lowStockReminder": "Low Stock Reminder",
+        "lowStockReminderOn": "Low Stock Reminder on",
+        "imagendDocumentsHeading": "Images & Documents (Optional)",
+        "images&Documents": "Images & Documents",
+        "addMoreImagesOrDocument": "Add more Images or Documents",
+        "saveButton": "Save",	
+        "doneButton": "Done"
+      },
+      "view": {
+        "itemName": "Item Name",
+        "deleteItem": "Delete Item",	
+        "confirmDelete": "Yes, Delete ",
+        "description": "Description",
+        "sellingPriceWithTax": "Selling Price (With Tax)",
+        "sellingPriceWithOutTax": "Selling Price (With Out Tax)",
+        "GSTRate": "GST Rate",
+        "HSNCode": "HS Code",
+        "purchasePriceWithTax": "Purchase Price (With Tax)",
+        "purchasePriceWithOutTax": "Purchase Price (With Out Tax)",
+        "currentStock": "Current Stock",
+        "measuringUnit": "Measuring Unit",
+        "lowStockReminderOn": "Low Stock Reminder on",
+        "itemmCode": "Item Code",
+        "imageNdDocument": "Images & Documents"
+      },	
+      "error": {	
+        "hsnCode": "Invalid HS Code",	
+        "saveValiation": "Please fill the valid data",	
+        "deleteError": "Are you sure want to delete the item",	
+        "deleteErrorContinue": "? You cannot recover this item once deleted.",	
+        "deleteConfirmation": "Are you sure you want to delete ",	
+        "has": "has",	
+        "inStock": "in stock."
+      }
+    },
+    "imagePreview": {
+      "change": "Change",
+      "delete": "Delete"
+    },
+    "profile": {
+      "account": {
+        "accountHeader": "Account",
+        "companyName": "Company Name",
+        "profileName": "Profile Name",
+        "mobileNumber": "Mobile Number",
+        "shareApp": "Share the Bizgo App",
+        "share": "Share",
+        "whatsapp": "WhatsApp",
+        "uploadLogo": "Upload Logo"
+      },
+      "profileDetails": {
+        "profileHeader": "Profile Details",
+        "yourName": "Your Name",
+        "mobileNumber": "Mobile Number",
+        "appLanguage": "App Language",
+        "signature": "Signature (Optional)",
+        "addSignature": "Add a Signature",
+        "changeSignature": "Change Signature",
+        "done": "Done",
+        "delete": "Delete",
+        "change": "Change",
+        "discardChanges": "Discard Changes",
+        "continueEditing": "Continue Editing",
+        "confirmation": "Confirmation",
+        "deleteSignature": "Delete Signature",
+        "yesDelete": "Yes, Delete",
+        "deleteMessage": "Are you sure you want to delete signature",
+        "backMessage": "Your profile changes are not saved. Would you like to discard the changes or continue editing?"
+      },
+      "company": {
+        "companyHeader": "Company Details",
+        "companyAddress": "Company Address (Optional)",
+        "pinCode": "Postal Code (Optional)",
+        "gstin": "TIN (Optional)",
+        "addLogo": "Add company logo"
+      },
+      "team": {
+        "yourTeam": "Your Team",
+        "invite": "Invite New Member",
+        "chooseFromContacts": "Choose from Contacts",
+        "partyName": "Name",
+        "countryCode": "Country code",
+        "mobileNumber": "Mobile Number",
+        "memberRole": "Member Role",
+        "save": "Save & Send SMS Invite",
+        "OrAddCustomerDetails": "Or add customer details",
+        "search": "Search by Member Name and Role"
+      },
+      "securityAndLegal": {
+        "securityHeader": "Security & Legal",
+        "versionNumber": "Version Number",
+        "termsAndCondition": "Terms And Condition",
+        "privacyPolicy": "Privacy Policy"
+      },
+      "mobileNumberChange": {
+        "message": "We will send an OTP to verify your new mobile number.",
+        "confirmOtp": "Confirm OTP"
+      }
+    },
+    "return": {
+      "purchaseText":"Purchase",
+      "selectItem": {
+        "searchPlaceholder": "Search by Item Name/Code"
+      },
+      "view": {
+        "returnItemsndReversibleCharges": "Return Items & Reversible Charges"
+      },
+      "form": {
+        "cash": "Cash",
+        "credit": "Credit",
+        "totalRefundAmount": "Total Refund Amount",
+        "total": "Total",
+        "preTaxAmount": "Pre Tax Amount",
+        "cgstsgst": "CGST + SGST",
+        "reversibleCharges": "( - ) Reversible Charges",
+        "updateReturnDate": "Return Details"
+      },
+      "createReturn": {
+        "discardReturn": "Confirmation",	
+        "discardMessage": "Your changes are not saved yet. would you like to continue or discard it?",	
+        "yes": "Discard",	
+        "no": "Continue Editing",
+        "addEdit": "Add / Edit Items & Charges",
+        "save": "Save",
+        "addNote": "Add Note",
+        "return": "Return"
+      },
+      "returnSelectEntry": {
+        "sortFilter": "Sort & Filter"
+      },
+      "selectReturnItem": {	
+        "continue": "Continue",	
+        "additionalCharges": "Additional Charges",	
+        "itemsFrom": "Items From"
+      },
+      "expansionPanel": {	
+        "returnQty": "Return Qty.",	
+        "pcs": "Pcs",
+        "addToInventory": "Add to Inventory",
+        "quantityError": "Number of units returned can’t exceed number of units sold",	
+        "quantityErrorSupplier": "Number of units returned can’t exceed number of units purchased",	
+        "unitsCannotBeZeroError": "Number of units returned can’t be 0",	
+        "inventoryError": "Number of units returned to inventory can’t exceed Number of units returned ",	
+        "refundPricePerUnit": "Refund Price Per Unit",	
+        "withTax": "With Tax",	
+        "withoutTax": "Without Tax",	
+        "unitPriceError": "Refund amount is greater than invoice amount for",	
+        "unitPriceErrorSupplier": "Refund amount is less than amount paid for",	
+        "gst": "GST",	
+        "reverseDiscount": "Reverse Discount",	
+        "discoutError": "Discount amount cannot exceed the invoice discount amount.",	
+        "refundAmount": "Refund Amount",	
+        "refundAmountLessError": "Refund amount is less than zero. If refund amount is less than zero please review the discount, tax / price.",	
+        "refundAmountGreaterError": "Refund amount is greater than customer paid",	
+        "refundAmountGreaterErrorSupplier": "Refund amount is less than amount paid",	
+        "tax": "Tax",	
+        "discount": "Discount"
+      },
+      "returnComponents": {	
+        "total": "Total",	
+        "preTaxAmount": "Pre Tax Amount",	
+        "gst": "GST",	
+        "reversibleCharges": "Reversible Charges",	
+        "additionalCharges": "( - ) Additional Charges",	
+        "totalRefundAmount": "Total Refund Amount",	
+        "sendSmsToCustomer": "Send Return SMS to customer",	
+        "on": "On",	
+        "off": "Off"
+      }
+    },
+    "party": {
+      "gstinLabel":"TIN Details (Optional)",
+      "gstinText":"TIN",
+      "maxLength":"10",
+      "reqLength":"0",
+      "entry": {
+        "searchPlaceHolder": "Search by party name"
+      },	
+      "date": {	
+        "latestToOldest": "Creation Date : Newest first ",	
+        "oldestToLatest": "Creation Date : Oldest first "
+      }
+    },
+    "onBoarding": {
+      "title": "Welcome to BIZGO Ji",
+      "preferredLanguage": "Select your preferred language",
+      "businessType": "Select your business type",
+      "buttonText": "Continue",
+      "Manufacturer": "Manufacturer",
+      "Distributor": "Distributor",
+      "Wholesaler": "Wholesaler",
+      "Retailer": "Retailer",
+      "Services": "Services",
+      "Other": "Other Type",
+      "language": {"English": "English", "Hinglish": "Hinglish"}
+    },	
+    "supplier": {	
+      "errorMsg": "No Supplier found"
+    },
+    "address": {
+      "addAddress": "Add Address",
+      "fullAddress": "Full Address",
+      "pincodeLabel": "Postal Code",
+      "addShippingAddress": "Add as Shipping Address",
+      "addBillingAddress": "Add as Billing Address",
+      "save": "Done",
+      "pincodeValidation": "Please enter valid Postal code",
+      "addressValidation1": "Address and Postal code are required",
+      "addressValidation2": "Please select Billing or Shipping address"
+    }
+  },	
+  "component":{	
+    "item":{"total":{"error": "Total amount cannot be less than 0"}}
+  },
+  "date": {
+    "formats": {
+      "default": "%m %b %Y",
+      "short": "%m/%d",
+      "ordinal_day": "%d/%m/%Y",
+      "shortDMY": "%d %b %Y"
+    }
+  },
+  "number": {
+    "currency": {
+      "format": {
+        "delimiter": ",",
+        "format": "%u%n",
+        "precision": 2,
+        "separator": ".",
+        "significant": false,
+        "strip_insignificant_zeros": false,
+        "unit": "$"
+      }
+    },
+    "format": {
+      "delimiter": ",",
+      "precision": 2,
+      "separator": ".",
+      "significant": false,
+      "strip_insignificant_zeros": false
+    },
+    "human": {
+      "decimal_units": {
+        "format": "%n %u",
+        "units": {
+          "billion": "Billion",
+          "million": "Million",
+          "quadrillion": "Quadrillion",
+          "thousand": "Thousand",
+          "trillion": "Trillion",
+          "unit": ""
+        }
+      },
+      "format": {
+        "delimiter": "",
+        "precision": 3,
+        "significant": true,
+        "strip_insignificant_zeros": true
+      },
+      "storage_units": {
+        "format": "%n %u",
+        "units": {
+          "byte": {
+            "one": "Byte",
+            "other": "Bytes"
+          },
+          "eb": "EB",
+          "gb": "GB",
+          "kb": "KB",
+          "mb": "MB",
+          "pb": "PB",
+          "tb": "TB"
+        }
+      }
+    },
+    "percentage": {
+      "format": {
+        "delimiter": "",
+        "format": "%n%"
+      }
+    },
+    "precision": {
+      "format": {
+        "delimiter": ""
+      }
+    }
+  },	
+  "apiErrorMessages": {	
+    "unknownError": "Application error, please contact system support",	
+    "buIdMustExists": "This Business Unit does not exist",	
+    "buIdMustExist": "This Business Unit does not exist",	
+    "itemIdMustExist": "item id does not exist",	
+    "itemCodeUomUnique": "Item Code and UOM should be unique",	
+    "itemCodeUnique": "Item Code already exists",	
+    "itemNameUnique": "Item Name already exists",	
+    "itemCodeUniqueForUpdate": "Item Code already exists",	
+    "itemNameUniqueForUpdate": "Item Name already exists",	
+    "validGstNumber": "TIN Number not valid..",	
+    "partyIdMustExist": "party id does not exist..",	
+    "addressIdMustExists": "Address Id does not exist",	
+    "entryMustNotExist": "party has entries  hence can not be deleted.. ",	
+    "customerIdExists": "Customer Id does not exit..",	
+    "invoiceAmountMustNotBeZero": "Invoice amount should not be zero..",	
+    "invoiceIdExists": "--",	
+    "invoiceIdMustExists": "invoiceid doesnt not exist(crateInvoiceCopy)",	
+    "invoiceNoMustNotExist": "Invoice no already exists..",	
+    "supplierIdExists": "SupplierId Id does not exit..",	
+    "purchaseAmountMustNotBeZero": "Purchase amount should not be zero..",	
+    "purchaseIdExists": "purchase Id not exist",	
+    "purchaseNoMustNotExist": "purchase no already exists..",	
+    "purchaseIdMustExists": "purchaseId doesn't not exist",	
+    "customerIdMustExists": "customer id does not exist..",	
+    "creditNoMustNotExist": "credit no already exists..",	
+    "creditIdMustExist": "credit Id does not exit..",	
+    "creditNoMustNotExistForUpdate": "credit no already exists..",	
+    "paymentNoDoesNotExist": "PaymentNo exists!",	
+    "paymentInIdExist": "paymentIn doesn't exist",	
+    "lessOrEqualPaymentAmountAndInvoiceAmount": "payment amount should be less or equal to the invoice amount",	
+    "paymentOutIdExist": "paymentOut doesn't exist",	
+    "lessOrEqualPaymentAmountAndPurchaseAmount": "payment amount should be less or equal to the purchase amount",	
+    "mobileMustNotExists": "mobile number already registered..",	
+    "buIdExists": "Business does not exist!",	
+    "uomNameShouldNotExists": "Unit Name already exists",	
+    "uomCodeShouldNotExists": "Short Code already exists",	
+    "mobileNoForBUShouldNotExist": "Mobile number already exists in this bu",	
+    "userIdExists": "User does not exist..",	
+    "mobileNoShouldNotExist": "Mobile number already exists",	
+    "otpMustBeValidForUpdate": "otp not valid",	
+    "mobileNumber": "Mobile Number  does not exist..",	
+    "userIsTheAdmin": "User is not the admin",	
+    "toMobileNoMustNotExist": "Mobile number already exist",	
+    "quotationNumberMustNotExist": "Quotation no already exist",	
+    "quotationAmountMustNotBeZero": "Quotation amount should not be zero or below..",	
+    "quotationIdMustExist": "Quotation does not exist",	
+    "datesMustBeInOrder": "Due date should not be before the quotation date",	
+    "invoiceMustNotOtherReturns": "Invoice already having the return",	
+    "returnsIdMustExists": "Invoice return does not exist",	
+    "purchaseMustNotOtherReturns": "purchase already have the return",	
+    "itemReturnQuanityMustBeLessThanEntry": "return item quantity more then original purchase item quantity",	
+    "mustNotBeAnyBalanceRemaining": "Cannot delete party as party has pending balance or transactions",	
+    "mobileNumberNotExist": "party mobile no already exist"
+  }
+}

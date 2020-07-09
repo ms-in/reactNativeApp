@@ -1,0 +1,22 @@
+{
+  "hello": "हाय बिज्गो! lalala",
+  "translation": "अनुवाद पाठ",
+  "date_text": "दिनांक",
+  "currency_text": "मुद्रा",
+  "number_text": "संख्या",
+  "english": "English",
+  "hindi": "हिंदी",
+  "navigation": {
+    "home": "घर",
+    "search": "खोज",
+    "landing": "अवतरण",
+    "gotoTab": "टैब पर जाएं"
+  },
+  "date": {
+    "formats": {
+      "default": "%d/%m/%Y",
+      "short": "%d/%m",
+      "ordinal_day": "%d/%m/%Y"
+    }
+  }
+}

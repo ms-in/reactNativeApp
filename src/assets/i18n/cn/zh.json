@@ -1,0 +1,388 @@
+{
+  "hello": "Hi Bizgo!",
+  "translation": "翻译文本",
+  "date_text": "日期",
+  "currency_text": "货币",
+  "number_text": "数字",
+  "english": "英语",
+  "currencySymbol": "¥",
+  "hindi": "印度语",
+  "navigation": {
+    "home": "主页",
+    "search": "搜索",
+    "landing": "前往",
+    "gotoTab": "跳至",
+    "entries": "单据",
+    "parties": "交易对象",
+    "items": "产品",
+    "accounts": "帐号",
+    "account": "帐号",
+    "toCollect": "待收",
+    "toPay": "待付",
+    "selectCustomer": "选择客户",
+    "selectItem": "选择产品",
+    "createInvoice": "新建销售单",
+    "searchEntries": "单据搜索",
+    "paymentIn": "收款",
+    "paymentOut": "付款",
+    "linkedInvoice": "相关收据",
+    "searchItems": "搜索产品",
+    "createItem": "新建产品",
+    "updateItem": "更新产品",
+    "selectGst": "税率",
+    "createParty": "新建交易对象"
+  },
+  "icon": {
+    "account": "BizgoIcon_Account1",
+    "add": "BizgoIcon_Add1",
+    "bill": "BizgoIcon_z14-Bill-yuan",
+    "camera": "BizgoIcon_Camera1",
+    "clear_text": "BizgoIcon_Clear-Text1",
+    "companyDetails": "BizgoIcon_z5-company-details",
+    "convertToInvoice": "BizgoIcon_Convert-to-Invoice1",
+    "copy": "BizgoIcon_Copy1",
+    "createEntry": "BizgoIcon_Add1",
+    "credit": "BizgoIcon_Credit1",
+    "de-activate": "BizgoIcon_z9-disable",
+    "delete": "BizgoIcon_Delete1",
+    "download": "BizgoIcon_Download1",
+    "edit": "BizgoIcon_Edit1",
+    "entries": "BizgoIcon_Entries1",
+    "file": "BizgoIcon_File1",
+    "filter": "BizgoIcon_Filter1",
+    "filterActive": "BizgoIcon_z09-Filter-active",
+    "folder": "BizgoIcon_Folder1",
+    "image": "BizgoIcon_Image1",
+    "invoice": "BizgoIcon_z13-Invoice-yuan",
+    "items": "BizgoIcon_Items1",
+    "listview": "BizgoIcon_z6-List-view",
+    "ledgerview": "BizgoIcon_z8-ledger-view",
+    "logo": "Bizgo Logo Full Mark",
+    "money_in": "BizgoIcon_z17-moneyIn-yuan",
+    "money_out": "BizgoIcon_z18-moneyOut-yuan",
+    "parties": "BizgoIcon_Parties1",
+    "payment_in": "BizgoIcon_z17-moneyIn-yuan",
+    "payment_out": "BizgoIcon_z18-moneyOut-yuan",
+    "percentage": "BizgoIcon_Percentage1",
+    "phone": "BizgoIcon_Phone1",
+    "play": "BizgoIcon_Play1",
+    "print": "BizgoIcon_Print1",
+    "profileDetails": "BizgoIcon_z3-Profile-Details",
+    "quotation": "BizgoIcon_Quotation1",
+    "record_payment_in": "BizgoIcon_Record-PaymentIn1",
+    "record_payment_out": "BizgoIcon_Record-PaymentOut1",
+    "resendOtp": "BizgoIcon_Resend-OTP1",
+    "return": "BizgoIcon_Return1",
+    "rupee": "BizgoIcon_z09-yuan-sign",
+    "search": "BizgoIcon_Search1",
+    "securityLegal": "BizgoIcon_z7-security",
+    "sendReminder": "BizgoIcon_Send-reminder1",
+    "share": "BizgoIcon_Share1",
+    "signature": "BizgoIcon_z1-signature",
+    "signature_z2": "BizgoIcon_z2-signature",
+    "whatsApp": "BizgoIcon_Whats-app1",
+    "chat": "BizgoIcon_Whats-app1",
+    "yourTeam": "BizgoIcon_z4-your-team"
+  },
+  "scenes": {
+    "entries": {
+      "modal": {
+        "modalHeading": "排序 过滤",
+        "sortHeading": "排序",
+        "filterHeading": "过滤",
+        "sortBy": {
+          "amount": {
+            "highToLow": "金额：高到低",
+            "lowToHigh": "金额：低到高"
+          },
+          "date": {
+            "latestToOldest": "单据日期：新到旧",
+            "oldestToLatest": "单据日期：旧到新"
+          }
+        },
+        "filterBy": {
+          "salesInvoice": "销售/收据",
+          "purchase": "采购",
+          "paymentIn": "收款",
+          "paymentOut": "付款",
+          "udhaar": "预收/预付"
+        },
+        "modalButton": "应用"
+      },
+      "buttons": {
+        "done": "完成"
+      },
+      "selectCustomer": {
+        "input": {
+          "placeHolder": "搜索现有客户"
+        }
+      },
+      "searchEntries": {
+        "input": {
+          "placeHolder": "按交易对象/单据号搜索"
+        }
+      },
+      "selectItem": {
+        "input": {
+          "placeHolder": "搜索现有产品"
+        }
+      },
+      "createInvoice": {
+        "edit": "编辑",
+        "billTo": "收据地址",
+        "items": "产品",
+        "options": "（选项）",
+        "optional": "（可选）",
+        "notes": "备注",
+        "addNotes": "添加备注",
+        "addItems": "添加产品",
+        "addMoreItems": "添加更多产品",
+        "additionalCharges": "额外费用",
+        "addShippingAddress": "添加送货地址",
+        "addBillingAddress": "添加收据地址",
+        "invoiceDetails": "收据详情",
+        "billing": "收据",
+        "shipping": "送货",
+        "address": "地址"
+      },
+      "paymentIn": {
+        "from": "付款对象",
+        "method": "付款方式",
+        "notes": "备注",
+        "totalAmount": "总额"
+      },
+      "paymentOut": {
+        "to": "付款",
+        "method": "付款方式",
+        "notes": "备注",
+        "totalAmount": "总额"
+      },
+      "linkedInvoice": {
+        "partyName": "交易对象",
+        "totalReceived": "总收款",
+        "unlinkedAmount": "未关联金额",
+        "invoiceAmount": "收据金额",
+        "balance": "余额",
+        "receivedAmount": "收款额"
+      },
+      "actionSheet": {
+        "options": {
+          "paymentOut": "付款",
+          "paymentIn": "收款",
+          "udhaarOrCredit": "预收/预付",
+          "purchaseOrBill": "采购/收据",
+          "salesOrInvoice": "销售/收据",
+          "cancel": "取消",
+          "quotation": "报价"
+        },
+        "buttons": {
+          "actionSheetButton": "新建单据",
+          "createUomButtom": "新建单位"
+        }
+      },
+      "labels": {
+        "toCollect": "待收",
+        "toPay": "待付"
+      }
+    },
+    "udhaar": {
+      "giveCredit": "预收/预付",
+      "edit": "编辑",
+      "credit": "预收/预付",
+      "giveCreditTo": "预收/预付",
+      "imagesAndDocuments": "图片及附件",
+      "totalAmount": "总额",
+      "sendSMS": "给客户发送短信",
+      "saveButton": "保存",
+      "creditDetails": "预收/预付详情",
+      "creditNumber": "预收/预付额",
+      "creditDate": "预收/预付日期",
+      "done": "完成"
+    },
+    "authentication": {
+      "buttons": {
+        "continue": "继续"
+      },
+      "dropdownPickerTitle": "区号",
+      "textInputMobileTitle": "输入电话号码",
+      "textInputOtpTitle": "输入一次性密码"
+    },
+    "quotation": {
+      "createQuotation": "新建报价",
+      "quotation": "报价",
+      "quoteTo": "报价给",
+      "addItems": "添加产品",
+      "addMoreItems": "添加更多产品",
+      "notes": "备注",
+      "notesWithOptional": "备注（可选）",
+      "addNotes": "添加备注",
+      "quotationDetails": "报价详情",
+      "alert": {
+        "title": "确认",
+        "message": "是否保存报价？",
+        "save": "保存",
+        "discard": "放弃"
+      },
+      "editQuotation": "编辑报价",
+      "discountAndRoundOff": "折扣/抹零",
+      "discountPrice": "折扣价",
+      "roundOff": "抹零",
+      "buttons": {
+        "save": "保存"
+      }
+    },
+    "item": {
+      "sortFilter": {
+        "sort": {
+          "itemNameAtoZ": "产品名：A到Z",
+          "itemNameZtoA": "产品名：Z到A",
+          "quantityLowtoHigh": "数量：从小到大",
+          "quantityHightoLow": "数量：从大到小",
+          "priceLowtoHigh": "价格：从低到高",
+          "priceHightoLow": "价格：从高到低"
+        },
+        "filter": {
+          "inStock": "有货",
+          "notInStock": "缺货"
+        }
+      },
+      "search": {
+        "input": {
+          "placeHolder": "按产品名/编码搜索"
+        }
+      },
+      "create": {
+        "button": "新建产品"
+      },
+      "uom": {
+        "selectUom": "选择单位",
+        "searchUom": "搜索单位",
+        "recentlyUsed": "最近使用单位",
+        "allUnits": "所有单位",
+        "createSelect": "新建&选择新单位",
+        "unitName": "单位名",
+        "shortCode": "编码",
+        "validationMessage": "请输入单位名和编码",
+        "done": "完成"
+      }
+    },
+    "createItem": {
+      "form": {
+        "itemNamePlaceHolder": "产品名",
+        "descriptionHeading": "描述（可选）",
+        "description": "描述",
+        "addADescription": "添加描述",
+        "pricingPlaceHolder": "价格（可选）",
+        "pricing": {
+          "salesPrice": "售价",
+          "withTax": "含税",
+          "withoutTax": "不含税",
+          "purchasePrice": "进价"
+        },
+        "taxDetailsHeading": "税率详情（可选）",
+        "addTaxDetails": "添加税率详情",
+        "GSTRate": "税率",
+        "HSNCode": "HSN码",
+        "stockDetailsHeading": "库存详情（可选）",
+        "addStockDetails": "添加库存详情",
+        "itemCode": "产品编码",
+        "currentStockQuantity": "现有库存",
+        "measuringUnit": "单位",
+        "lowStockReminder": "库存不足警报",
+        "lowStockReminderOn": "库存不足警报（开）",
+        "imagendDocumentsHeading": "图片及附件（可选）",
+        "images&Documents": "图片及附件",
+        "addMoreImagesOrDocument": "添加图片或附件",
+        "saveButton": "保存"
+      },
+      "view": {
+        "itemName": "产品名",
+        "description": "描述",
+        "sellingPriceWithTax": "售价（含税）",
+        "sellingPriceWithOutTax": "售价（不含税）",
+        "GSTRate": "税率",
+        "HSNCode": "HSN码",
+        "purchasePriceWithTax": "进价（含税）",
+        "purchasePriceWithOutTax": "进价（不含税）",
+        "currentStock": "现有库存",
+        "measuringUnit": "单位",
+        "lowStockReminderOn": "库存不足警报（开）",
+        "itemmCode": "产品编码",
+        "imageNdDocument": "图片及附件"
+      }
+    }
+  },
+  "date": {
+    "formats": {
+      "default": "%m %b %Y",
+      "short": "%m/%d",
+      "ordinal_day": "%d/%m/%Y",
+      "shortDMY": "%d %b %Y"
+    }
+  },
+  "number": {
+    "currency": {
+      "format": {
+        "delimiter": ",",
+        "format": "%u%n",
+        "precision": 2,
+        "separator": ".",
+        "significant": false,
+        "strip_insignificant_zeros": false,
+        "unit": "₹"
+      }
+    },
+    "format": {
+      "delimiter": ",",
+      "precision": 2,
+      "separator": ".",
+      "significant": false,
+      "strip_insignificant_zeros": false
+    },
+    "human": {
+      "decimal_units": {
+        "format": "%n %u",
+        "units": {
+          "billion": "Billion",
+          "million": "Million",
+          "quadrillion": "Quadrillion",
+          "thousand": "Thousand",
+          "trillion": "Trillion",
+          "unit": ""
+        }
+      },
+      "format": {
+        "delimiter": "",
+        "precision": 3,
+        "significant": true,
+        "strip_insignificant_zeros": true
+      },
+      "storage_units": {
+        "format": "%n %u",
+        "units": {
+          "byte": {
+            "one": "Byte",
+            "other": "Bytes"
+          },
+          "eb": "EB",
+          "gb": "GB",
+          "kb": "KB",
+          "mb": "MB",
+          "pb": "PB",
+          "tb": "TB"
+        }
+      }
+    },
+    "percentage": {
+      "format": {
+        "delimiter": "",
+        "format": "%n%"
+      }
+    },
+    "precision": {
+      "format": {
+        "delimiter": ""
+      }
+    }
+  }
+}
