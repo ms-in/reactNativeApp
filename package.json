@@ -9,6 +9,10 @@
     "test": "jest",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms-in/reactNativeApp.git"
+  },
   "dependencies": {
     "lodash": "^4.17.15",
     "lodash.debounce": "^4.0.8",
